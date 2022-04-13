@@ -1,0 +1,53 @@
+.form-container {
+    width: 1200px;
+    margin: auto;
+    padding: 22px;
+    text-align: center;
+}
+
+form {
+    border: none;
+    width: 500px;
+    padding: 18px;
+    margin: auto;
+    border-radius: 10px;
+    background: #6ebbff;
+    box-shadow: -17px -7px 2px 0 #7d82ea;
+}
+
+a.form-link {
+    color: #384bff;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.input-group label {
+    display: block;
+    font-size: 21px;
+    line-height: 43px;
+    font-weight: 600;
+}
+
+.input-group input {
+    border: none;
+    width: 305px;
+    padding: 10px;
+}
+
+.input-group {
+    display: grid;
+    justify-content: center;
+    justify-items: start;
+    margin: 20px 0;
+}
+
+input.form-submit,
+#google {
+    width: 320px;
+    padding: 6px;
+    font-size: 18px;
+    border: none;
+    background: cornflowerblue;
+    color: #fff;
+    cursor: pointer;
+}
